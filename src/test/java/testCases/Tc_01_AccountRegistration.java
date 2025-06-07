@@ -62,7 +62,7 @@ if(confmsg.equals("Your Account Has Been Created!")){
 	
 	Assert.assertTrue(true);
 }else {
-	logger.error("---test failed-----");
+	logger.error("---test failed------");
 	logger.debug("debug logs");
 	Assert.assertTrue(false);
 }
