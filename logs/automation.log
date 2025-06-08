@@ -4643,3 +4643,14 @@
 18:00:16.386 [main] INFO  testCases.TC_02_LoginToAccount - -----providing email and password----
 18:00:17.763 [main] INFO  testCases.TC_02_LoginToAccount - -----Checking My Account Test----
 18:00:17.835 [main] INFO  testCases.TC_02_LoginToAccount - -----Finished Tc_02----
+18:14:35.423 [main] INFO  testCases.Tc_01_AccountRegistration - -----Starting Test Case----
+18:14:35.481 [main] INFO  testCases.Tc_01_AccountRegistration - -----Launching web page----
+18:14:37.734 [main] INFO  testCases.Tc_01_AccountRegistration - -----Clicked my account----
+18:14:40.528 [main] INFO  testCases.Tc_01_AccountRegistration - -----Clicked register----
+18:14:40.534 [main] INFO  testCases.Tc_01_AccountRegistration - -----providing customer details----
+18:14:42.912 [main] INFO  testCases.Tc_01_AccountRegistration - -----Assertion completed with test case closure----
+18:14:46.398 [main] INFO  testCases.TC_02_LoginToAccount - -----Starting Test Case----
+18:14:46.401 [main] INFO  testCases.TC_02_LoginToAccount - -----Launching web page----
+18:14:46.686 [main] INFO  testCases.TC_02_LoginToAccount - -----Clicked my account----
+18:14:47.246 [main] INFO  testCases.TC_02_LoginToAccount - -----Clicked on login account----
+18:14:47.251 [main] INFO  testCases.TC_02_LoginToAccount - -----providing email and password----
