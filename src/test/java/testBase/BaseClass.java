@@ -112,7 +112,7 @@ public Properties p; //loading property file
 		
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-		driver.get(p.getProperty("appUrl1")); //reading url from properties file
+		driver.get(p.getProperty("appUrl1")); //reading url from properties files
 		driver.manage().window().maximize();
 	}
 
