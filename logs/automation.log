@@ -4654,3 +4654,8 @@
 18:14:46.686 [main] INFO  testCases.TC_02_LoginToAccount - -----Clicked my account----
 18:14:47.246 [main] INFO  testCases.TC_02_LoginToAccount - -----Clicked on login account----
 18:14:47.251 [main] INFO  testCases.TC_02_LoginToAccount - -----providing email and password----
+19:59:01.419 [main] INFO  testCases.Tc_01_AccountRegistration - -----Starting Test Case----
+19:59:01.497 [main] INFO  testCases.Tc_01_AccountRegistration - -----Launching web page----
+19:59:04.207 [main] INFO  testCases.Tc_01_AccountRegistration - -----Clicked my account----
+19:59:07.146 [main] INFO  testCases.Tc_01_AccountRegistration - -----Clicked register----
+19:59:07.152 [main] INFO  testCases.Tc_01_AccountRegistration - -----providing customer details----
