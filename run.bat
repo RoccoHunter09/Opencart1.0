@@ -1,2 +1,2 @@
-C:\Users\asus\eclipse-workspace\Opencart1.0
+cd C:\Users\asus\eclipse-workspace\Opencart1.0\
 mvn test

@@ -30,7 +30,7 @@ import org.testng.annotations.Parameters;
 
 public class BaseClass {
 //below are the common things from every test cases thats why we kept it in a single file	
-public static WebDriver driver;
+public  WebDriver driver;
 //public WebDriver driver; //--make sure to make driver non static while running parallel testing/ other driver will get confuse
 
 public Logger logger; // for log4j
