@@ -16,6 +16,7 @@ public class AccountRegistrationPage extends BasePage {
 	@FindBy(xpath = "//input[@id='input-lastname']")
 	WebElement txtLastName;
 	
+	
 	@FindBy(xpath = "//input[@id='input-email']")
 	WebElement txtEmail;
 	

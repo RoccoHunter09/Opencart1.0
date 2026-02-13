@@ -5,23 +5,9 @@
     <listener class-name="utilities.extentReportManager"/>
   </listeners>
   <test thread-count="5" name="Test(failed)" verbose="0">
-    <parameter name="os" value="chrome"/>
+    <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_03_LoginDDT">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="VerifyLoginDDT" invocation-numbers="0 1 2 3 4 5"/>
-        </methods>
-      </class> <!-- testCases.TC_03_LoginDDT -->
-      <class name="testCases.Tc_01_AccountRegistration">
-        <methods>
-          <include name="Verify_Account_registration"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.Tc_01_AccountRegistration -->
       <class name="testCases.TC_02_LoginToAccount">
         <methods>
           <include name="tearDown"/>
@@ -29,6 +15,13 @@
           <include name="Verify_login"/>
         </methods>
       </class> <!-- testCases.TC_02_LoginToAccount -->
+      <class name="testCases.TC_03_LoginDDT">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="VerifyLoginDDT"/>
+        </methods>
+      </class> <!-- testCases.TC_03_LoginDDT -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
